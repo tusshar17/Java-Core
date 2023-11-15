@@ -2,8 +2,8 @@ package OOPs.StaticMethod;
 
 
 class Demo{
-    static void SayHi(){
-        System.out.println("Ho, from a static method of external class.");
+    static void sayHi(){
+        System.out.println("Hi, from a static method of external class.");
     }
 }
 
@@ -20,6 +20,6 @@ public class CallingStaticMethodInStaticMethod {
         sayHello();
 
         // calling static method of external class
-        Demo.SayHi();
+        Demo.sayHi();
     }
 }
