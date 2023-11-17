@@ -27,5 +27,17 @@ public class Demo {
             System.out.println("");
         }
 
+        System.out.println("\n");
+
+        int[][] num2 = {{11, 22, 33, 44}, {55, 66, 77, 88}};
+        int rowSize = num2.length, columnSize = num2[0].length;
+
+        for (int i = 0; i < rowSize; i++) {
+            for (int j = 0; j < columnSize; j++) {
+                System.out.print(num2[i][j]+" ");
+            }
+            System.out.println("");
+        }
+
     }
 }
